@@ -1,4 +1,4 @@
 #!/bin/bash
-yum update -y
-yum install -y httpd
-systemctl stop httpd
+sudo apt update -y
+sudo apt install -y apache2
+sudo systemctl stop apache2
